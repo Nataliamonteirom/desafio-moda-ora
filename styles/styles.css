@@ -86,3 +86,42 @@ html, body{
 .descricao-produto{
     font-size: 18px;
 }
+
+.sobre-marca{
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: right bottom;
+    background-size: cover;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.sobre-marca h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.sobre-marca p{
+    line-height: 1.8;
+    width: 70%;
+    color: #fff;
+}
+
+.footer-container{
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+    margin: 20px;
+    margin-top: 0;
+}
+
